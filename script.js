@@ -1,3 +1,6 @@
+var latitude
+var longitude
+
 $( document ).ready(function() {
 	$("#calculate").click( function() {
 		var xmlhttp = new XMLHttpRequest();
@@ -20,7 +23,9 @@ $( document ).ready(function() {
 		}
 		
 		function setToTextfield(array) {
-			$("#result").html("Latitude: " + array[0].lat + "<br>Longitude: " + array[0].lon);
+			latitude = array[0].lat //Store data in variables
+			longitude = array[0].lon
+			$("#result").html("Latitude: " + latitude + "<br>Longitude: " + longitude);
 		}
 	});
 });
