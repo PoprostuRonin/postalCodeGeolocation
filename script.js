@@ -13,7 +13,7 @@ $( document ).ready(function() {
 		if(postalcode.length > 0)
 		{
 			//Build URL
-			var URL =  "http://nominatim.openstreetmap.org/search?format=json&postalcode=" + postalcode
+			var URL =  "https://nominatim.openstreetmap.org/search?format=json&postalcode=" + postalcode
 	
 			xmlhttp.open("GET", URL)
 			xmlhttp.send();
