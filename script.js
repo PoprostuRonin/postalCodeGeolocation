@@ -1,6 +1,3 @@
-var latitude;
-var longitude;
-
 $( document ).ready(function() {
 	$("#calculate").click( function() {
 		var xmlhttp = new XMLHttpRequest();
