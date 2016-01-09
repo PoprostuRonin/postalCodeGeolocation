@@ -1,0 +1,38 @@
+
+<html lang="en">
+<head>
+	<meta http-equiv="content-type" content="text/html; charset=utf-8">
+	<title>Geolocation by Postal Code</title>
+
+	<!-- Google Fonts -->
+	<link href='https://fonts.googleapis.com/css?family=Lato' rel='stylesheet' type='text/css'>
+
+	<!-- Our style.css -->
+	<link rel="stylesheet" href="style.css">
+
+	<!-- jQuery -->
+	<script type="text/javascript" src="https://code.jquery.com/jquery-2.1.4.min.js"> </script>
+
+	<!-- Our JavaScript -->
+	<script type="text/javascript" src="script.js"> </script>
+
+	<!-- Background is "Stardust" from www.subtlepatterns.com -->
+</head>
+
+<body>
+	<div class="header">
+		<p class="title">Geolocation by Postal Code</p>
+		<p class="undertitle">
+		Using <a href="https://nominatim.openstreetmap.org">nominatim.openstreetmap.org</a>. <br>
+		View source on <a href="https://github.com/PoprostuRonin/GeolocationPostalCode">GitHub<br><img src="images/github.png"/></a></p>
+	</div>
+
+	<div class="window">
+		Postal-Code: <input type="text" id="postalcode">
+
+		<button id="calculate">Get latitude and longitude</button>
+
+		<h3 id="result"></p>
+	</div>
+</body>
+</html>	
